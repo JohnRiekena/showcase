@@ -20,17 +20,18 @@ Rails.application.routes.draw do
   devise_for :users, controllers: { omniauth_callbacks: "users/omniauth_callbacks" }
 
 
-  namespace :example do
-    resources :home do
-      # I normally would move people to it's own controller, but wanted to use "collection" for this demo
-      collection do
-        get :people
-      end
-    end
-    resources :homeworld
-  end
+
   # Change root path when user is signed in
   authenticated :user do
+    namespace :example do
+      resources :home do
+        # I normally would move people to it's own controller, but wanted to use "collection" for this demo
+        collection do
+          get :people
+        end
+      end
+      resources :homeworld
+    end
     root to: 'authenticated#index', as: :authenticated_root
   end
 
