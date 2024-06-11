@@ -1,1 +1,0 @@
-resources :notifications, only: [:index]
