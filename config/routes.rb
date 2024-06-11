@@ -15,9 +15,26 @@ authenticate :user, lambda { |u| u.admin? } do
 end
 
   resources :notifications, only: [:index]
-  resources :announcements, only: [:index]
+  resources :unauthenticated, only: [:index]
   devise_for :users, controllers: { omniauth_callbacks: "users/omniauth_callbacks" }
+
+
+  namespace :example do
+    resources :home do
+      collection do
+        get :people
+        # get :homeworld
+      end
+    end
+    resources :homeworld
+  end
+  # Change root path when user is signed in
+  authenticated :user do
+    root to: 'authenticated#index', as: :authenticated_root
+  end
+
   root to: 'home#index'
+
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
