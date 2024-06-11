@@ -1,0 +1,3 @@
+class Pie < Dessert
+
+end

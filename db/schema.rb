@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_06_11_050206) do
+ActiveRecord::Schema[7.1].define(version: 2024_06_11_055734) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -50,6 +50,12 @@ ActiveRecord::Schema[7.1].define(version: 2024_06_11_050206) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "desserts", force: :cascade do |t|
+    t.string "type"
+    t.integer "score"
+    t.string "name"
+  end
+
   create_table "friendly_id_slugs", force: :cascade do |t|
     t.string "slug", null: false
     t.integer "sluggable_id", null: false
@@ -59,6 +65,22 @@ ActiveRecord::Schema[7.1].define(version: 2024_06_11_050206) do
     t.index ["slug", "sluggable_type", "scope"], name: "index_friendly_id_slugs_on_slug_and_sluggable_type_and_scope", unique: true
     t.index ["slug", "sluggable_type"], name: "index_friendly_id_slugs_on_slug_and_sluggable_type"
     t.index ["sluggable_type", "sluggable_id"], name: "index_friendly_id_slugs_on_sluggable_type_and_sluggable_id"
+  end
+
+  create_table "instruments", force: :cascade do |t|
+    t.string "name"
+    t.string "instrumentable_type"
+    t.bigint "instrumentable_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["instrumentable_id", "instrumentable_type"], name: "index_instruments_on_instrumentable_id_and_instrumentable_type"
+    t.index ["instrumentable_type", "instrumentable_id"], name: "index_instruments_on_instrumentable"
+  end
+
+  create_table "musicians", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "noticed_events", force: :cascade do |t|
@@ -97,6 +119,12 @@ ActiveRecord::Schema[7.1].define(version: 2024_06_11_050206) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_services_on_user_id"
+  end
+
+  create_table "surgeons", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "users", force: :cascade do |t|

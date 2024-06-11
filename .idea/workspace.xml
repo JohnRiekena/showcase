@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e6c4541-fa54-41ce-8ef5-e873637d4ae9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/verify.yml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/cake.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/dessert.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/instrument.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/musician.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/pie.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/surgeon.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/books_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/books_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/book.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/book.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/books/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/books/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/books/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/books/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/books/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/books/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +160,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718069483367</updated>
       <workItem from="1718069484495" duration="197000" />
-      <workItem from="1718069686983" duration="15042000" />
+      <workItem from="1718069686983" duration="15967000" />
     </task>
     <servers />
   </component>
