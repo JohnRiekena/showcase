@@ -5,44 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e6c4541-fa54-41ce-8ef5-e873637d4ae9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/showcase.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/authenticated_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/example/home_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/example/homeworld_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/unauthenticated_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/javascript/controllers/example_controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/homeworld.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/person.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/authenticated/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/example/home/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/example/home/people.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/example/homeworld/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/example/homeworld/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/example/people/_person.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/unauthenticated/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20240611014105_drop_announcements.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/swapi.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.bootstrap.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/jumpstart/announcements.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/announcements_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/announcements_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/controllers/hello_controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/announcement.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/announcements/index.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_footer.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_footer.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/shared/_navbar.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_navbar.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/announcement_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718069483367</updated>
       <workItem from="1718069484495" duration="197000" />
-      <workItem from="1718069686983" duration="11091000" />
+      <workItem from="1718069686983" duration="14023000" />
     </task>
     <servers />
   </component>
@@ -209,6 +176,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/showcase@showcase.rcov" NAME="showcase Coverage Results" MODIFIED="1718079700385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="showcase" />
+    <SUITE FILE_PATH="coverage/showcase@showcase.rcov" NAME="showcase Coverage Results" MODIFIED="1718082492676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="showcase" />
   </component>
 </project>
