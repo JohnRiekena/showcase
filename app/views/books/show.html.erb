@@ -15,4 +15,8 @@
   <dd><%= @book.page_count %></dd>
   <dt>Genre:</dt>
   <dd><%= @book.genre %></dd>
+  <% if @book.image.present? %>
+    <dt>Book Cover:</dt>
+    <dd><%= image_tag url_for(@book.image) if @book.image.present? %></dd>
+  <% end %>
 </dl>

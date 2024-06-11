@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e6c4541-fa54-41ce-8ef5-e873637d4ae9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/verify.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_navbar.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_navbar.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/books_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/books_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/book.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/book.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/books/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/books/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/books/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/books/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/books/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/books/show.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,23 +43,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Rails.showcase.executor": "Debug",
-    "RailsCreateViewFileDialog.DEFAULT_TEMPLATE": "ERB File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/john/Code/showcase/showcase",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "ruby.structure.view.model.defaults.configured": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Rails.showcase.executor&quot;: &quot;Debug&quot;,
+    &quot;RailsCreateViewFileDialog.DEFAULT_TEMPLATE&quot;: &quot;ERB File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/john/Code/showcase/showcase&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/views/example/people" />
@@ -157,7 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718069483367</updated>
       <workItem from="1718069484495" duration="197000" />
-      <workItem from="1718069686983" duration="14023000" />
+      <workItem from="1718069686983" duration="15042000" />
     </task>
     <servers />
   </component>

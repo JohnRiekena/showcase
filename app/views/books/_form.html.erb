@@ -4,27 +4,36 @@
       <h2><%= pluralize(book.errors.count, "error") %> prohibited this book from being saved:</h2>
 
       <ul>
-      <% book.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
+        <% book.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
       </ul>
     </div>
   <% end %>
 
   <div class="mb-3">
     <%= form.label :title, class: 'form-label' %>
-      <%= form.text_field :title, class: 'form-control' %>
-    </div>
+    <%= form.text_field :title, class: 'form-control' %>
+  </div>
 
   <div class="mb-3">
     <%= form.label :page_count, class: 'form-label' %>
-      <%= form.number_field :page_count, class: 'form-control' %>
-    </div>
+    <%= form.number_field :page_count, class: 'form-control' %>
+  </div>
 
   <div class="mb-3">
     <%= form.label :genre, class: 'form-label' %>
-      <%= form.select :genre, options_for_select(Book.genres, book.genre_before_type_cast), { }, { class: 'form-control' } %>
+    <%= form.select :genre, options_for_select(Book.genres, book.genre_before_type_cast), {}, { class: 'form-control' } %>
+  </div>
+
+  <div class="mb-3">
+    <%= form.label :image, "Upload Book Cover" %>
+    <br/>
+    <div>
+      <%= image_tag url_for(@book.image) if @book.image.present? %>
     </div>
+    <%= form.file_field :image %>
+  </div>
 
   <div class="mb-3">
     <% if book.persisted? %>
