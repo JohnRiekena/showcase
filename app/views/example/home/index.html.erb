@@ -2,12 +2,14 @@
   <hr/>
   <div class="row">
     <div class="col-8">
+      <h1>Star Wars Characters</h1>
       <%= turbo_frame_tag :people, src: people_example_home_index_path do %>
         People have not been loaded yet
       <% end %>
       <!-- Add people here -->
     </div>
     <div class="col-4" style="border-left: 1px solid black">
+      <h1>Homeworld</h1>
       <%= turbo_frame_tag :home_world, data: { example_target: :homeworld, base_path: example_homeworld_index_path } do %>
         Home world has not been loaded yet
       <% end %>

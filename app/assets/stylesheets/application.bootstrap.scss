@@ -1,2 +1,11 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
+
+.card {
+  transition: .3s all;
+  &:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px;
+    transform:scale(1.1);
+  }
+}
