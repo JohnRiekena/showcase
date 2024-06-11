@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e6c4541-fa54-41ce-8ef5-e873637d4ae9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/showcase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/showcase.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile.dev" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile.dev" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/example/home/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/example/home/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +45,7 @@
     "Rails.showcase.executor": "Debug",
     "RailsCreateViewFileDialog.DEFAULT_TEMPLATE": "ERB File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Test::Unit/Shoulda/Minitest.All tests in test: showcase.executor": "Debug",
     "Test::Unit/Shoulda/Minitest.BooksControllerTest.executor": "Debug",
     "Test::Unit/Shoulda/Minitest.test_should_create_book.executor": "Debug",
@@ -62,6 +61,11 @@
     "ruby.structure.view.model.defaults.configured": "true",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -69,7 +73,7 @@
       <recent name="$PROJECT_DIR$/app/views/example/people" />
     </key>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_should_destroy_Book">
+  <component name="RunManager" selected="Rails.showcase">
     <configuration name="showcase" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="showcase" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -328,7 +332,7 @@
       <updated>1718069483367</updated>
       <workItem from="1718069484495" duration="197000" />
       <workItem from="1718069686983" duration="18366000" />
-      <workItem from="1718113195977" duration="8948000" />
+      <workItem from="1718113195977" duration="12590000" />
     </task>
     <servers />
   </component>
@@ -346,10 +350,24 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/controllers/example/homeworld_controller.rb</url>
+          <line>3</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/showcase@test_should_update_Book.rcov" NAME="test_should_update_Book Coverage Results" MODIFIED="1718116128041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="showcase" />
     <SUITE FILE_PATH="coverage/showcase@test_should_create_book.rcov" NAME="test_should_create_book Coverage Results" MODIFIED="1718116304976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="showcase" />
-    <SUITE FILE_PATH="coverage/showcase@showcase.rcov" NAME="showcase Coverage Results" MODIFIED="1718113475899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="showcase" />
+    <SUITE FILE_PATH="coverage/showcase@showcase.rcov" NAME="showcase Coverage Results" MODIFIED="1718127709449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="showcase" />
     <SUITE FILE_PATH="coverage/showcase@test_should_destroy_Book.rcov" NAME="test_should_destroy_Book Coverage Results" MODIFIED="1718116600782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="showcase" />
     <SUITE FILE_PATH="coverage/showcase@BooksControllerTest.rcov" NAME="BooksControllerTest Coverage Results" MODIFIED="1718115887293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="showcase" />
     <SUITE FILE_PATH="coverage/showcase@All_tests_in_test__showcase.rcov" NAME="All tests in test: showcase Coverage Results" MODIFIED="1718116361193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="showcase" />
