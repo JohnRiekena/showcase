@@ -39,7 +39,7 @@ end
 
 # Example of Polymorphic Associations
 ap 'Creating Instruments'
-music_instruments = %w[Sax Guitar Trumpet Drums]
+music_instruments = %w[Sax Guitar Trumpet Drums Bass]
 surgeon_instruments = %w[Forceps Scissors Clamps Scalpel]
 
 Musician.all.each do |musician|
